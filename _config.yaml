@@ -1,4 +1,6 @@
 title: "Mohan Elapolu"
 description: "Random thoughts..."
 theme: minima
-header_pages: []
+header_pages: 
+  - about.md
+  - posts.md
