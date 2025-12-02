@@ -186,18 +186,37 @@ Built the LLM from scratch and performed pretraining based on the Andrej Karpath
 <button id="goTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
 
 <script>
-  // Show/hide button on scroll
+  const goTopBtn = document.getElementById("goTopBtn");
+
+  function showGoTop() {
+    goTopBtn.style.display = "block";
+  }
+
+  function hideGoTop() {
+    goTopBtn.style.display = "none";
+  }
+
+  // Show button on scroll
   window.addEventListener("scroll", function () {
-    const button = document.getElementById("goTopBtn");
-    if (window.scrollY > 400) {
-      button.style.display = "block";
+    if (window.scrollY > 50) {
+      showGoTop();
     } else {
-      button.style.display = "none";
+      hideGoTop();
     }
+  });
+
+  // Show button when navigating to an anchor (like #research)
+  window.addEventListener("hashchange", function () {
+    showGoTop();
   });
 
   // Smooth scroll to top
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // If page loads with a hash (like https://.../#research)
+  if (window.location.hash) {
+    showGoTop();
   }
 </script>
