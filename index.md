@@ -4,26 +4,6 @@ title: "Mohan Elapolu"
 nav_exclude: true
 ---
 
-<style>
-  body {
-    scroll-behavior: smooth;
-  }
-  section {
-    padding: 40px 0;
-    border-bottom: 1px solid #ddd;
-  }
-  h2 {
-    margin-top: 40px;
-  }
-</style>
-
-<nav class="site-nav" style="margin-bottom: 40px;">
-  <a href="#home">Home</a> |
-  <a href="#about">About</a> |
-  <a href="#research">Research</a> |
-  <a href="#projects">Projects</a>
-</nav>
-
 <!-- HOME SECTION -->
 <section id="home" markdown="1">
 ## Latest Posts
