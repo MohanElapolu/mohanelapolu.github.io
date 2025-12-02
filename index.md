@@ -43,6 +43,7 @@ nav_exclude: true
 <section id="about">
   <h2>About Me</h2>
 
+  {% markdown %}
   Hi, I'm **Mohan Elapolu**.
 
   - AI / ML  
@@ -50,24 +51,27 @@ nav_exclude: true
   - Writing
 
   I enjoy learning, building, and publishing my thoughts online.
+  {% endmarkdown %}
 </section>
 
 <!-- RESEARCH SECTION -->
 <section id="research">
   <h2>Research</h2>
-
+  {% markdown %}
   - **Topic 1** — short description  
   - **Topic 2** — short description  
   - **Topic 3** — short description  
 
   Add your actual research summaries here.
+  {% endmarkdown %}
 </section>
 
 <!-- PROJECTS SECTION -->
 <section id="projects">
   <h2>Projects</h2>
-
+  {% markdown %}
   - **Project 1** — description — [GitHub link](#)  
   - **Project 2** — description — [GitHub link](#)  
   - **Project 3** — description — [GitHub link](#)  
+  {% endmarkdown %}
 </section>
