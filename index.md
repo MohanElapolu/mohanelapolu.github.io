@@ -48,15 +48,87 @@ I enjoy learning, building, and publishing my thoughts online.
 </section>
 
 <!-- RESEARCH SECTION -->
-<section id="research" markdown="1">
-## Research
+<section id="research">
 
-- **Topic 1** — short description  
-- **Topic 2** — short description  
-- **Topic 3** — short description  
+<h2>Research</h2>
 
-Add your actual research summaries here.
+<style>
+  .tabs-wrapper {
+    margin-top: 20px;
+  }
+
+  .tab-row {
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+
+  .tab-row button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+  }
+
+  .tab-row button.active {
+    border-bottom-color: #0366d6;
+    font-weight: bold;
+    color: #0366d6;
+  }
+
+  .tab-content {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+</style>
+
+<div class="tabs-wrapper">
+
+  <!-- HORIZONTAL TABS -->
+  <div class="tab-row">
+    <button class="active" onclick="switchTab('t1', this)">Topic 1</button>
+    <button onclick="switchTab('t2', this)">Topic 2</button>
+    <button onclick="switchTab('t3', this)">Topic 3</button>
+  </div>
+
+  <!-- TAB CONTENT SECTIONS -->
+  <div id="t1" class="tab-content active" markdown="1">
+### Topic 1  
+Your content for topic 1…
+  </div>
+
+  <div id="t2" class="tab-content" markdown="1">
+### Topic 2  
+Your content for topic 2…
+  </div>
+
+  <div id="t3" class="tab-content" markdown="1">
+### Topic 3  
+Your content for topic 3…
+  </div>
+
+</div>
+
+<script>
+function switchTab(id, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-row button').forEach(b => b.classList.remove('active'));
+
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+
 </section>
+
 
 <!-- PROJECTS SECTION -->
 <section id="projects" markdown="1">
