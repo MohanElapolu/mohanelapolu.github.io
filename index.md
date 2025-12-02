@@ -159,3 +159,45 @@ Built the LLM from scratch and performed pretraining based on the Andrej Karpath
 [GitHub link](https://github.com/MohanElapolu/nanochat.git)  
 
 </section>
+
+<!-- GO TO TOP BUTTON -->
+<style>
+  #goTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #0366d6;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
+    transition: opacity 0.3s;
+  }
+
+  #goTopBtn:hover {
+    background: #024a9a;
+  }
+</style>
+
+<button id="goTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+
+<script>
+  // Show/hide button on scroll
+  window.addEventListener("scroll", function () {
+    const button = document.getElementById("goTopBtn");
+    if (window.scrollY > 400) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  });
+
+  // Smooth scroll to top
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
