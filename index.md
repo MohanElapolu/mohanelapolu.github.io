@@ -25,18 +25,14 @@ nav_exclude: true
 </nav>
 
 <!-- HOME SECTION -->
-<section id="home">
-  <h2>Latest Posts</h2>
+<section id="home" markdown="1">
+## Latest Posts
 
-  {% for post in site.posts limit:3 %}
-  <div style="margin-bottom:20px;">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <small>{{ post.date | date: "%B %d, %Y" }}</small>
-    <p>{{ post.excerpt }}</p>
-  </div>
-  {% endfor %}
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
 
-  <p><a href="/posts/">View all posts →</a></p>
+[View all posts →](/posts/)
 </section>
 
 <!-- ABOUT SECTION -->
