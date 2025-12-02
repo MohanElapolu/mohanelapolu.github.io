@@ -43,15 +43,15 @@ nav_exclude: true
 <section id="about">
   <h2>About Me</h2>
 
-  {% markdown %}
-  Hi, I'm **Mohan Elapolu**.
+    <section markdown="1">
+    Hi, I'm **Mohan**.
 
-  - AI / ML  
-  - Research  
-  - Writing
+    - AI / ML  
+    - Research  
+    - Writing
+    </section>
 
   I enjoy learning, building, and publishing my thoughts online.
-  {% endmarkdown %}
 </section>
 
 <!-- RESEARCH SECTION -->
