@@ -18,13 +18,13 @@ nav_exclude: true
 <!-- ABOUT SECTION -->
 <section id="about" markdown="1">
 ## About Me
-Hi, I'm **Mohan**.
-
+Hi, I'm **Mohan Elapolu**, A computational scientist generally uses mathematical tools to address and solve real-world problems. I use the computer programs to model, visualize, and simulate various complex experiments and answer open research questions, often saving resources and pushing frontiers of research.
+**Research Interests:**
+- Multi-scale Numerical Modeling 
 - AI / ML  
-- Research  
-- Writing
+- Systems Engineering
 
-I enjoy learning, building, and publishing my thoughts online.
+I enjoy writing about my work.
 </section>
 
 <!-- RESEARCH SECTION -->
@@ -81,18 +81,30 @@ I enjoy learning, building, and publishing my thoughts online.
 
   <!-- TAB CONTENT SECTIONS -->
   <div id="t1" class="tab-content active" markdown="1">
-### Topic 1  
-Your content for topic 1…
+### ML 
+    Computer Vision  
+    - Mohan S R Elapolu, Md Imrul Reza Shishir, and Alireza Tabarraei, A Novel Approach for Studying Crack Propagation in Polycrystalline Graphene using Machine Learning Algorithm, Computational Material Science (2022)
+    - Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei, A deep learning model for predicting mechanical properties of polycrystalline graphene, Computational Materials Science 218 (2023)
+    - Kurtz, Michael A., Ruoyu Yang, Dinghe Liu, Mohan S R Elapolu, Rahul Rai, and Jeremy L. Gilbert, Deep Neural Network Predicts Ti‐6Al‐4V Dissolution State Using Near‐Field Impedance Spectra, Advanced Functional Materials (2023)
+    - Kurtz, Michael A., Ruoyu Yang, Mohan S R Elapolu, Audrey C. Wessinger, William Nelson, Kazzandra Alaniz, Rahul Rai, and Jeremy L. Gilbert, Predicting Corrosion Damage in the Human Body Using Artificial Intelligence: In Vitro Progress and Future Applications, Orthopedic Clinics (2023)
+
   </div>
 
   <div id="t2" class="tab-content" markdown="1">
-### Topic 2  
-Your content for topic 2…
+### Requirement Engineering  
+    - Mohan S R Elapolu, Rahul Rai, David J. Gorsich, Denise Rizzo, Stephen Rapp, and Matthew P. Castanier. "Blockchain technology for requirement traceability in systems engineering." Information Systems 123 (2024)
+
   </div>
 
   <div id="t3" class="tab-content" markdown="1">
-### Topic 3  
-Your content for topic 3…
+### Thermal/Mechanical/Corrosion Behavior   
+    - Mohan S R Elapolu, Alireza Tabarraei, Mechanical and Fracture Properties of Polycrystalline Graphene with Hydrogenated Grain Boundaries, The Journal of Physical Chemistry C (2021)
+    - Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei. "Investigation of fracture and mechanical properties of monolayer c3n using molecular dynamic simulations." Mechanics of Materials 160 (2021)
+    - Mohan S R Elapolu, Alireza Tabarraei, Atomistic Simulation-Based Cohesive Zone Law of Hydrogenated Grain Boundaries of Graphene, The Journal of Physical Chemistry C (2020)
+    - Mohan S R Elapolu, Alireza Tabarraei, An Atomistic Study of the Stress Corrosion Cracking in Graphene, The Journal of Physical Chemistry A (2020)
+    - Mohan S R Elapolu, Alireza Tabarraei, Phononic Thermal Transport Properties of C3N nanotubes, Nanotechnology (2019)
+    - Mohan S R Elapolu, Alireza Tabarraei, Fracture mechanics of multi-layer molybdenum disulfide, Engineering Fracture Mechanics (2019)
+    - Mohan S R Elapolu, Alireza Tabarraei, Kapitza Conductance of Symmetric tilt grain boundaries of monolayer hexagonal boron nitride, Computational Materials Science (2018)
   </div>
 
 </div>
