@@ -46,45 +46,45 @@ I specialize in pre- and post-processing large-scale computational data using Py
 
   <!-- LINKEDIN -->
   <a href="https://www.linkedin.com/in/mohansuryarajaelapolu/" target="_blank">
-        <svg height="26" viewBox="0 0 24 24" fill="#0077B5">
-          <path d="M19 0h-14c-2.761 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#0077B5" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4.98 3.5C4.98 4.61 4.1 5.5 2.99 5.5C1.88 5.5 1 4.61 1 3.5C1 2.39 1.88 1.5 2.99 1.5C4.1 1.5 4.98 2.39 4.98 3.5ZM5 7H1V23H5V7ZM8.98 7H4.98V23H8.98V14.45C8.98 10.95 13.48 11.2 13.48 14.45V23H17.48V13.23C17.48 7.97 10.98 8.17 8.98 10.77V7Z"/>
+    </svg>
+  </a>
 
   <!-- TWITTER / X -->
   <a href="https://x.com/msrelapolu" target="_blank">
-        <svg height="26" viewBox="0 0 24 24" fill="black">
-          <path d="M18.244 2h3.314 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.244 2L12.63 9.14L6.36 2H2L10.39 11.23L2.32 22H6.82L12.76 14.52L18.57 22H22L13.48 12.27L21.18 2H18.244Z"/>
+    </svg>
+  </a>
 
   <!-- GITHUB -->
   <a href="https://github.com/MohanElapolu" target="_blank">
-        <svg height="26" viewBox="0 0 16 16" fill="black">
-          <path d="M8 0C3.58 0 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.5 11.12C3.13 11.11 3.61 11.7 3.77 11.94C4.53 13.19 5.72 12.83 6.25 12.61C6.32 12.09 6.53 11.73 6.76 11.53C4.78 11.33 2.68 10.64 2.68 7.6C2.68 6.72 3 5.99 3.55 5.43C3.47 5.23 3.19 4.42 3.62 3.31C3.62 3.31 4.29 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.75 3.09 12.42 3.31 12.42 3.31C12.85 4.42 12.57 5.23 12.49 5.43C13.04 5.99 13.36 6.71 13.36 7.6C13.36 10.65 11.25 11.32 9.26 11.52C9.55 11.76 9.8 12.26 9.8 13.04C9.8 14.19 9.79 15.11 9.79 15.42C9.79 15.63 9.94 15.87 10.34 15.79C13.54 14.53 15.82 11.54 15.82 8C15.82 3.58 12.42 0 8 0Z"/>
+    </svg>
+  </a>
 
   <!-- GOOGLE SCHOLAR -->
   <a href="https://scholar.google.com/citations?user=79_RjssAAAAJ&hl=en" target="_blank">
-        <svg height="26" viewBox="0 0 488 512" fill="#4285F4">
-          <path d="M244 48L0 244 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 488 512" fill="#4285F4" xmlns="http://www.w3.org/2000/svg">
+      <path d="M244 48L0 244L244 440L488 244L244 48ZM244 108L415 244L244 380L73 244L244 108Z"/>
+    </svg>
+  </a>
 
   <!-- EMAIL -->
   <a href="mailto: mohanelapolu@gmail.com">
-        <svg height="26" viewBox="0 0 24 24" fill="#D44638">
-          <path d="M12 13.065 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#D44638" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 13L1 6.5V18C1 19.1 1.9 20 3 20H21C22.1 20 23 19.1 23 18V6.5L12 13ZM21 4H3C1.9 4 1 4.9 1 6L12 12L23 6C23 4.9 22.1 4 21 4Z"/>
+    </svg>
+  </a>
 
   <!-- RESUME -->
   <a href="/assets/resume.pdf" target="_blank">
-        <svg height="26" viewBox="0 0 24 24" fill="#555">
-          <path d="M14 2H6a2 ..."/>
-        </svg>
-      </a>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#555" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM13 9V3.5L18.5 9H13ZM8 12H16V14H8V12ZM8 16H14V18H8V16Z"/>
+    </svg>
+  </a>
 
   </div>
 
