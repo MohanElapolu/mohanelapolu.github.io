@@ -23,13 +23,6 @@ I am Mohan Elapolu, a computational scientist with deep passion about understand
 I construct advanced computational tools, including finite element solvers, finite-difference molecular dynamics frameworks, and physics-guided scientific machine learning models, designed to run efficiently on high-performance computing environments. I also bring deep expertise in the modern Python and AI/ML stack, including GNNs, Transformers, generative AI (LLMs, RAG, agents), and MLOps practices for scalable deployment and workflow optimization.
 
 I specialize in pre- and post-processing large-scale computational data using Python and scientific computing libraries to extract actionable insights and support data-driven reasoning.
-
-**Research Interests:**
-- Multi-scale Numerical Modeling 
-- AI / ML  
-- Systems Engineering
-
-I enjoy writing about my work.
 </section>
 
 <!-- RESEARCH SECTION -->
