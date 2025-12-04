@@ -18,10 +18,10 @@ nav_exclude: true
 <!-- ABOUT SECTION -->
 <section id="about">
 
-<div style="display:flex; justify-content:space-between; align-items:flex-start;">
+<div style="display:flex; justify-content:space-between; align-items:flex-start; gap:30px;">
 
-  <!-- LEFT SIDE: ABOUT TEXT -->
-  <div style="flex: 1; padding-right:30px;" markdown="1">
+  <!-- LEFT SIDE: MARKDOWN TEXT -->
+  <div style="flex:1;" markdown="1">
 
 ## About Me
 
@@ -86,7 +86,10 @@ I specialize in pre- and post-processing large-scale computational data using Py
         </svg>
       </a>
 
-</div>
+  </div>
+
+  </div>
+
 </div>
 
 </section>
