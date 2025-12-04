@@ -118,8 +118,6 @@ A machine learning model is proposed to predict the brittle fracture of polycrys
 
 </div>
 
----
-
 <div id="t2" class="tab-content" markdown="1">
 
 ### Relevant Publications
@@ -133,8 +131,6 @@ A machine learning model is proposed to predict the brittle fracture of polycrys
 - Mohan S R Elapolu, Alireza Tabarraei, *Kapitza Conductance of Symmetric tilt grain boundaries of monolayer hexagonal boron nitride*, Computational Materials Science (2018)
 
 </div>
-
----
 
 <div id="t3" class="tab-content" markdown="1">
 
