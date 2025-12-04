@@ -77,68 +77,97 @@ I enjoy writing about my work.
 
 <div class="tabs-wrapper">
 
-  <!-- HORIZONTAL TABS -->
-  <div class="tab-row">
-    <button class="active" onclick="switchTab('t1', this)">Scientific ML</button>
-    <button onclick="switchTab('t2', this)">Physics-based Predictive Analysis</button>
-    <button onclick="switchTab('t3', this)">Systems Engineering</button>
-  </div>
+<!-- HORIZONTAL TABS -->
+<div class="tab-row">
+  <button class="active" onclick="switchTab('t1', this)">Scientific ML</button>
+  <button onclick="switchTab('t2', this)">Physics-based Predictive Analysis</button>
+  <button onclick="switchTab('t3', this)">Systems Engineering</button>
+</div>
 
-  <!-- TAB CONTENT SECTIONS -->
-  <div id="t1" class="tab-content active" markdown="1">
-  
+<!-- TAB CONTENT SECTIONS -->
+<div id="t1" class="tab-content active" markdown="1">
+
 ## PINNS
+
 **FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation**
+
 Modeling fracture in solids remains a significant challenge in computational mechanics due to the complexity of crack initiation and propagation under mixed-mode loading. In this work, we introduce a novel fracture-informed graph neural network (GNN) framework (FiGNNet) for simulating fractures in pre-cracked elastic solids. FiGNNet couples a graph transformer network (GTF) to capture long-range interactions with a graph attention network (GAT), focusing on localized behavior near crack tips. The governing equations of linear elasticity are embedded in the loss function through their weak form, ensuring physical consistency without relying on finite element analysis (FEA) solutions: displacements or stresses. The proposed approach is validated against FEA across various benchmark problems involving center and edge cracks subjected to tensile, shear, and bending loads. FiGNNet accurately predicts displacement fields, stress distributions, and crack propagation angles across all scenarios. The proposed method offers a physics-informed machine learning framework for fracture simulation, with strong potential for further integration into mesh-independent computational mechanics problems.
+
 [Publication Link](http://dx.doi.org/10.2139/ssrn.5713427)
 
-## Computer Vision  
+---
+
+## Computer Vision
+
 **Machine Learning Algorithms for predicting crack propagation**
+
 A machine learning model is proposed to predict the brittle fracture of polycrystalline graphene under tensile loading. The model employs a convolutional neural network, bidirectional recurrent neural network, and fully connected layer to process the spatial and sequential features. The spatial features are grain orientations and location of grain boundaries whereas sequential features are associated with the crack growth. Molecular dynamics modeling is used to obtain the fracture process in pre-cracked polycrystalline graphene sheet subjected to tensile loading. The data from molecular dynamic simulations along with novel image-processing techniques are used to prepare the data set required to train and test the proposed model. Crack growth obtained from the machine learning model shows a close agreement with the molecular dynamic simulations. The proposed machine learning model predicts crack growth instantaneously avoiding the computational costs associated with molecular dynamics simulations.
-[Publication link](https://doi.org/10.1016/j.commatsci.2021.110878)
+
+[Publication link](https://doi.org/10.1016/j.commatsci.2021.110878)  
 [GitHub link](https://github.com/MohanElapolu/poly_graph)
 
-***Relevant Publications***
-- Mohan S R Elapolu, Mahmoud Dinar, and Alireza Tabarraei, FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation, Computational Material Science (2025)
-- Mohan S R Elapolu, Md Imrul Reza Shishir, and Alireza Tabarraei, A Novel Approach for Studying Crack Propagation in Polycrystalline Graphene using Machine Learning Algorithm, Computational Material Science (2022)
-- Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei, A deep learning model for predicting mechanical properties of polycrystalline graphene, Computational Materials Science 218 (2023)
-- Kurtz, Michael A., Ruoyu Yang, Dinghe Liu, Mohan S R Elapolu, Rahul Rai, and Jeremy L. Gilbert, Deep Neural Network Predicts Ti‐6Al‐4V Dissolution State Using Near‐Field Impedance Spectra, Advanced Functional Materials (2023)
-- Kurtz, Michael A., Ruoyu Yang, Mohan S R Elapolu, Audrey C. Wessinger, William Nelson, Kazzandra Alaniz, Rahul Rai, and Jeremy L. Gilbert, Predicting Corrosion Damage in the Human Body Using Artificial Intelligence: In Vitro Progress and Future Applications, Orthopedic Clinics (2023)
+---
 
-  </div>
+### Relevant Publications
 
-  <div id="t2" class="tab-content" markdown="1">
+- Mohan S R Elapolu, Mahmoud Dinar, and Alireza Tabarraei, *FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation*, Computational Material Science (2025)
+- Mohan S R Elapolu, Md Imrul Reza Shishir, and Alireza Tabarraei, *A Novel Approach for Studying Crack Propagation in Polycrystalline Graphene using Machine Learning Algorithm*, Computational Material Science (2022)
+- Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei, *A deep learning model for predicting mechanical properties of polycrystalline graphene*, Computational Materials Science 218 (2023)
+- Kurtz, Michael A., Ruoyu Yang, Dinghe Liu, Mohan S R Elapolu, Rahul Rai, and Jeremy L. Gilbert, *Deep Neural Network Predicts Ti‐6Al‐4V Dissolution State Using Near‐Field Impedance Spectra*, Advanced Functional Materials (2023)
+- Kurtz, Michael A., Ruoyu Yang, Mohan S R Elapolu, Audrey C. Wessinger, William Nelson, Kazzandra Alaniz, Rahul Rai, and Jeremy L. Gilbert, *Predicting Corrosion Damage in the Human Body Using Artificial Intelligence: In Vitro Progress and Future Applications*, Orthopedic Clinics (2023)
 
-***Relevant Publications***
-- Mohan S R Elapolu, Alireza Tabarraei, Mechanical and Fracture Properties of Polycrystalline Graphene with Hydrogenated Grain Boundaries, The Journal of Physical Chemistry C (2021)
-- Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei. "Investigation of fracture and mechanical properties of monolayer c3n using molecular dynamic simulations." Mechanics of Materials 160 (2021)
-- Mohan S R Elapolu, Alireza Tabarraei, Atomistic Simulation-Based Cohesive Zone Law of Hydrogenated Grain Boundaries of Graphene, The Journal of Physical Chemistry C (2020)
-- Mohan S R Elapolu, Alireza Tabarraei, An Atomistic Study of the Stress Corrosion Cracking in Graphene, The Journal of Physical Chemistry A (2020)
-- Mohan S R Elapolu, Alireza Tabarraei, Phononic Thermal Transport Properties of C3N nanotubes, Nanotechnology (2019)
-- Mohan S R Elapolu, Alireza Tabarraei, Fracture mechanics of multi-layer molybdenum disulfide, Engineering Fracture Mechanics (2019)
-- Mohan S R Elapolu, Alireza Tabarraei, Kapitza Conductance of Symmetric tilt grain boundaries of monolayer hexagonal boron nitride, Computational Materials Science (2018)
-  </div>
+</div>
 
-  <div id="t3" class="tab-content" markdown="1">
+---
+
+<div id="t2" class="tab-content" markdown="1">
+
+### Relevant Publications
+
+- Mohan S R Elapolu, Alireza Tabarraei, *Mechanical and Fracture Properties of Polycrystalline Graphene with Hydrogenated Grain Boundaries*, The Journal of Physical Chemistry C (2021)
+- Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei, *Investigation of fracture and mechanical properties of monolayer C3N using molecular dynamic simulations*, Mechanics of Materials 160 (2021)
+- Mohan S R Elapolu, Alireza Tabarraei, *Atomistic Simulation-Based Cohesive Zone Law of Hydrogenated Grain Boundaries of Graphene*, The Journal of Physical Chemistry C (2020)
+- Mohan S R Elapolu, Alireza Tabarraei, *An Atomistic Study of the Stress Corrosion Cracking in Graphene*, The Journal of Physical Chemistry A (2020)
+- Mohan S R Elapolu, Alireza Tabarraei, *Phononic Thermal Transport Properties of C3N nanotubes*, Nanotechnology (2019)
+- Mohan S R Elapolu, Alireza Tabarraei, *Fracture mechanics of multi-layer molybdenum disulfide*, Engineering Fracture Mechanics (2019)
+- Mohan S R Elapolu, Alireza Tabarraei, *Kapitza Conductance of Symmetric tilt grain boundaries of monolayer hexagonal boron nitride*, Computational Materials Science (2018)
+
+</div>
+
+---
+
+<div id="t3" class="tab-content" markdown="1">
 
 ## Requirement Engineering
-**Blockchain Technology for Requirement Traceability** 
-Requirement engineering (RE), a systematic process of eliciting, defining, analyzing, and managing requirements, is a vital phase in systems engineering. In RE, requirement traceability establishes the relationship between the artifacts and supports requirement validation, change management, and impact analysis. Establishing requirement traceability is challenging, especially in the early stages of a complex system design, as requirements constantly evolve and change. Moreover, the involvement of distributed stakeholders in system development introduces collaboration and trust issues. This paper outlines a novel blockchain-based requirement traceability framework that includes a data acquisition template and graph-based visualization. The template enables dual-level traceability (artifact and object) in the RE processes. The traceability information acquired through the templates is stored in the blockchain, where traces are embedded in blocks’ metadata and data. Furthermore, the blockchain is represented as a Neo4J property graph where traces can be retrieved using Cypher queries, thus enabling a mechanism to query and examine the history of requirements. The framework’s efficacy is showcased by documenting the RE process of an autonomous automotive system. Our results indicated that the framework can record the history of artifacts with constantly changing requirements and can yield secure decentralized ledgers of requirement artifacts. The proposed distributed traceability framework has shown promise to enhance stakeholder collaboration and trust. However, additional user studies should be conducted to bolster our results.
-[Publication Link](https://doi.org/10.1016/j.is.2024.102384)
+
+**Blockchain Technology for Requirement Traceability**
+
+Requirement engineering (RE), a systematic process of eliciting, defining, analyzing, and managing requirements, is a vital phase in systems engineering. In RE, requirement traceability establishes the relationship between the artifacts and supports requirement validation, change management, and impact analysis. Establishing requirement traceability is challenging, especially in the early stages of a complex system design, as requirements constantly evolve and change. Moreover, the involvement of distributed stakeholders in system development introduces collaboration and trust issues.
+
+This paper outlines a novel blockchain-based requirement traceability framework that includes a data acquisition template and graph-based visualization.
+
+[Publication Link](https://doi.org/10.1016/j.is.2024.102384)  
 [GitHub link](https://github.com/MohanElapolu/Blockchain-Technology-for-Requirement-Traceability-in-Systems-Engineering)
 
-## Design Optimization 
-Many computational design methods like generative models and topology optimization find optimal structures for certain requirements by iteratively trying alternatives that may include non-manifolds and without an explicit trace of feasible structures along the search. These methods focus on achieving one solution at a time. We propose a new computational framework that constructs a surrogate dataset of physically realizable designs by finding polyomino structures—neighboring squares with at least one common edge—with breadth-first search of a quadtree. We conduct Finite-Element Analysis (FEA) on each level of the tree to narrow down acceptable structures under a given load condition. Considering that all possible options for filling an n*n grid are 2n*n combinations, we use few heuristics, e.g., ignoring structures with fewer cells than the length of the bounding box, that significantly reduce the search space from trillions to thousands in our case study of an 8*8 grid. Our exhaustive yet tractable dataset of structures evaluated with FEA allows us to not only find a Pareto frontier of compliant structures but also facilitates exploring structures with different topology at the same volume fraction to adapt designs to other requirements such as support structure when additively manufactured. We demonstrate a case for bending load.
+---
+
+## Design Optimization
+
+Many computational design methods like generative models and topology optimization find optimal structures for certain requirements by iteratively trying alternatives that may include non-manifolds and without an explicit trace of feasible structures along the search.
+
 [Publication Link](https://doi.org/10.1115/DETC2025-169088)
 
-***Relevant Publications*** 
-- Mohan S R Elapolu, Rahul Rai, David J. Gorsich, Denise Rizzo, Stephen Rapp, and Matthew P. Castanier. "Blockchain technology for requirement traceability in systems engineering." Information Systems 123 (2024)
-- Mohan S R Elapolu, Mahmoud Dinar. "Design for Compositional Manufacturing in the Circular Economy: Methods and Challenges and Future Prospects" In ASME IDETC/CIE Conference (2025)
-- Mohan S R Elapolu, Mahmoud Dinar. "Creating an Exhaustive Surrogate Dataset of Polyomino Structures for Tractable Design Exploration" In ASME IDETC/CIE Conference (2025)
-- Mukunda Puvva, Mohan S R Elapolu, Mahmoud Dinar. "Adaptive Metamorphic Polyomino Structures: Searching Surrogate Datasets of Different Loads for Structures With Finite Moves Apart" In ASME IDETC/CIE Conference (2025)
+---
 
+### Relevant Publications
 
-  </div>
+- Mohan S R Elapolu, Rahul Rai, David J. Gorsich, Denise Rizzo, Stephen Rapp, and Matthew P. Castanier, *Blockchain technology for requirement traceability in systems engineering*, Information Systems 123 (2024)
+- Mohan S R Elapolu, Mahmoud Dinar, *Design for Compositional Manufacturing in the Circular Economy*, ASME IDETC/CIE (2025)
+- Mohan S R Elapolu, Mahmoud Dinar, *Creating an Exhaustive Surrogate Dataset of Polyomino Structures for Tractable Design Exploration*, ASME IDETC/CIE (2025)
+- Mukunda Puvva, Mohan S R Elapolu, Mahmoud Dinar, *Adaptive Metamorphic Polyomino Structures*, ASME IDETC/CIE (2025)
+
+</div>
+
 
 </div>
 
