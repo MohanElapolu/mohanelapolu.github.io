@@ -17,13 +17,18 @@ nav_exclude: true
 
 <!-- ABOUT SECTION -->
 <section id="about" markdown="1">
-## About Me
-I am Mohan Elapolu, a computational scientist with deep passion about understanding and predicting physical, chemical, biological, and engineered phenomena. I solve ODE/PDE-based systems using classical numerical methods and modern machine learning tools to build high- and low-fidelity simulations for complex system behavior, design optimization, and intelligent decision-making.
 
-I construct advanced computational tools, including finite element solvers, finite-difference molecular dynamics frameworks, and physics-guided scientific machine learning models, designed to run efficiently on high-performance computing environments. I also bring deep expertise in the modern Python and AI/ML stack, including GNNs, Transformers, generative AI (LLMs, RAG, agents), and MLOps practices for scalable deployment and workflow optimization.
+## About Me
+
+<img src="/assets/mohan.jpg" alt="Mohan Elapolu" style="width:180px; border-radius: 12px; float:right; margin-left:20px; margin-bottom:10px;">
+
+I am **Mohan Elapolu**, a computational scientist with a deep passion for understanding and predicting physical, chemical, biological, and engineered phenomena. I solve ODE/PDE-based systems using classical numerical methods and modern machine learning tools to build high- and low-fidelity simulations for complex system behavior, design optimization, and intelligent decision-making.
+
+I construct advanced computational tools, including finite element solvers, finite-difference molecular dynamics frameworks, and physics-guided scientific machine learning models designed to run efficiently on high-performance computing environments. I also bring deep expertise in the modern Python and AI/ML stack—including GNNs, Transformers, generative AI (LLMs, RAG, agents), and MLOps practices for scalable deployment and workflow optimization.
 
 I specialize in pre- and post-processing large-scale computational data using Python and scientific computing libraries to extract actionable insights and support data-driven reasoning.
 </section>
+
 
 <!-- RESEARCH SECTION -->
 <section id="research">
