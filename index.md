@@ -4,6 +4,9 @@ title: "Mohan Elapolu"
 nav_exclude: true
 ---
 
+<!-- EVERYTHING BELOW IS CENTERED -->
+<div class="page-container">
+
 <!-- HOME SECTION -->
 <section id="home" markdown="1">
 ## Latest Posts
@@ -327,3 +330,5 @@ Built the LLM from scratch and performed pretraining based on the Andrej Karpath
     showGoTop();
   }
 </script>
+
+</div>
