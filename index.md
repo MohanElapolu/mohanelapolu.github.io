@@ -89,6 +89,16 @@ I specialize in pre- and post-processing large-scale computational data using Py
 
 </section>
 
+<!-- Posts Section -->
+<section id="home" markdown="1">
+## Latest Posts
+
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
+
+[View all posts →](/posts/)
+</section>
 
 <!-- RESEARCH SECTION -->
 <section id="research">
@@ -236,18 +246,6 @@ function switchTab(id, btn) {
 </script>
 
 </section>
-
-<!-- Posts Section -->
-<section id="home" markdown="1">
-## Latest Posts
-
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
-
-[View all posts →](/posts/)
-</section>
-
 
 <!-- PROJECTS SECTION -->
 <section id="projects" markdown="1">
