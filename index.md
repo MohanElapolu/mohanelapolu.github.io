@@ -7,16 +7,6 @@ nav_exclude: true
 <!-- EVERYTHING BELOW IS CENTERED -->
 <div class="page-container">
 
-<!-- HOME SECTION -->
-<section id="home" markdown="1">
-## Latest Posts
-
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
-
-[View all posts →](/posts/)
-</section>
 
 <!-- ABOUT SECTION -->
 <section id="about">
@@ -245,6 +235,17 @@ function switchTab(id, btn) {
 }
 </script>
 
+</section>
+
+<!-- Posts Section -->
+<section id="home" markdown="1">
+## Latest Posts
+
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
+
+[View all posts →](/posts/)
 </section>
 
 
