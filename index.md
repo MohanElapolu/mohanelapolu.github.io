@@ -184,8 +184,6 @@ I specialize in pre- and post-processing large-scale computational data using Py
 <!-- TAB CONTENT SECTIONS -->
 <div id="t1" class="tab-content active" markdown="1">
 
-### PINNS
-
 **FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation**
 
 Modeling fracture in solids remains a significant challenge in computational mechanics due to the complexity of crack initiation and propagation under mixed-mode loading. In this work, we introduce a novel fracture-informed graph neural network (GNN) framework (FiGNNet) for simulating fractures in pre-cracked elastic solids. FiGNNet couples a graph transformer network (GTF) to capture long-range interactions with a graph attention network (GAT), focusing on localized behavior near crack tips. The governing equations of linear elasticity are embedded in the loss function through their weak form, ensuring physical consistency without relying on finite element analysis (FEA) solutions: displacements or stresses. The proposed approach is validated against FEA across various benchmark problems involving center and edge cracks subjected to tensile, shear, and bending loads. FiGNNet accurately predicts displacement fields, stress distributions, and crack propagation angles across all scenarios. The proposed method offers a physics-informed machine learning framework for fracture simulation, with strong potential for further integration into mesh-independent computational mechanics problems.
@@ -193,8 +191,6 @@ Modeling fracture in solids remains a significant challenge in computational mec
 [Publication Link](http://dx.doi.org/10.2139/ssrn.5713427)
 
 ---
-
-### Computer Vision
 
 **Machine Learning Algorithms for predicting crack propagation**
 
@@ -205,7 +201,7 @@ A machine learning model is proposed to predict the brittle fracture of polycrys
 
 ---
 
-### Relevant Publications
+#### Relevant Publications
 
 - Mohan S R Elapolu, Mahmoud Dinar, and Alireza Tabarraei, *FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation*, Computational Material Science (2025)
 - Mohan S R Elapolu, Md Imrul Reza Shishir, and Alireza Tabarraei, *A Novel Approach for Studying Crack Propagation in Polycrystalline Graphene using Machine Learning Algorithm*, Computational Material Science (2022)
@@ -217,7 +213,7 @@ A machine learning model is proposed to predict the brittle fracture of polycrys
 
 <div id="t2" class="tab-content" markdown="1">
 
-### Relevant Publications
+#### Relevant Publications
 
 - Mohan S R Elapolu, Alireza Tabarraei, *Mechanical and Fracture Properties of Polycrystalline Graphene with Hydrogenated Grain Boundaries*, The Journal of Physical Chemistry C (2021)
 - Shishir, Md Imrul Reza, Mohan S R Elapolu, and Alireza Tabarraei, *Investigation of fracture and mechanical properties of monolayer C3N using molecular dynamic simulations*, Mechanics of Materials 160 (2021)
@@ -250,7 +246,7 @@ Many computational design methods like generative models and topology optimizati
 
 ---
 
-### Relevant Publications
+#### Relevant Publications
 
 - Mohan S R Elapolu, Rahul Rai, David J. Gorsich, Denise Rizzo, Stephen Rapp, and Matthew P. Castanier, *Blockchain technology for requirement traceability in systems engineering*, Information Systems 123 (2024)
 - Mohan S R Elapolu, Mahmoud Dinar, *Design for Compositional Manufacturing in the Circular Economy*, ASME IDETC/CIE (2025)
