@@ -85,13 +85,6 @@ I specialize in pre- and post-processing large-scale computational data using Py
     </svg>
   </a>
 
-  <!-- TWITTER / X -->
-  <a href="https://x.com/msrelapolu" target="_blank">
-    <svg width="26" height="26" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
-      <path d="M18.244 2L12.63 9.14L6.36 2H2L10.39 11.23L2.32 22H6.82L12.76 14.52L18.57 22H22L13.48 12.27L21.18 2H18.244Z"/>
-    </svg>
-  </a>
-
   <!-- GITHUB -->
   <a href="https://github.com/MohanElapolu" target="_blank">
     <svg width="26" height="26" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -106,6 +99,17 @@ I specialize in pre- and post-processing large-scale computational data using Py
     </svg>
   </a>
 
+  </div>
+   <!-- ICONS -->
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:30px;">
+
+  <!-- RESUME -->
+  <a href="/assets/resume.pdf" target="_blank">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#555" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM13 9V3.5L18.5 9H13ZM8 12H16V14H8V12ZM8 16H14V18H8V16Z"/>
+    </svg>
+  </a>
+
   <!-- EMAIL -->
   <a href="mailto: mohanelapolu@gmail.com">
     <svg width="26" height="26" viewBox="0 0 24 24" fill="#D44638" xmlns="http://www.w3.org/2000/svg">
@@ -113,10 +117,10 @@ I specialize in pre- and post-processing large-scale computational data using Py
     </svg>
   </a>
 
-  <!-- RESUME -->
-  <a href="/assets/resume.pdf" target="_blank">
-    <svg width="26" height="26" viewBox="0 0 24 24" fill="#555" xmlns="http://www.w3.org/2000/svg">
-      <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM13 9V3.5L18.5 9H13ZM8 12H16V14H8V12ZM8 16H14V18H8V16Z"/>
+  <!-- TWITTER / X -->
+  <a href="https://x.com/msrelapolu" target="_blank">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.244 2L12.63 9.14L6.36 2H2L10.39 11.23L2.32 22H6.82L12.76 14.52L18.57 22H22L13.48 12.27L21.18 2H18.244Z"/>
     </svg>
   </a>
 
