@@ -66,7 +66,8 @@ I specialize in pre- and post-processing large-scale computational data using Py
   </div>
 
   <!-- RIGHT SIDE: PHOTO + ICONS -->
-  <div style="width:230px; text-align:center; align-self:center;">
+<div style="display:flex; justify-content:center; gap:20px; align-items:center; margin:0 auto;">
+
 
 
   <!-- PHOTO -->
@@ -75,8 +76,6 @@ I specialize in pre- and post-processing large-scale computational data using Py
          style="width:200px; border-radius:12px; margin-bottom:12px;">
 
   <!-- ICONS -->
-  <div style="display:flex; gap:20px; justify-content:center; align-items:center;>
-
   <!-- LINKEDIN -->
   <a href="https://www.linkedin.com/in/mohansuryarajaelapolu/" target="_blank">
     <svg width="26" height="26" viewBox="0 0 24 24" fill="#0077B5" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +107,6 @@ I specialize in pre- and post-processing large-scale computational data using Py
 
   </div>
    <!-- ICONS -->
-  <div style="display:flex; gap:20px; justify-content:center; align-items:center;>
 
   <!-- EMAIL -->
   <a href="mailto: mohanelapolu@gmail.com">
@@ -125,10 +123,6 @@ I specialize in pre- and post-processing large-scale computational data using Py
   </a>
 
   </div>
-
-  </div>
-
-</div>
 
 </section>
 
