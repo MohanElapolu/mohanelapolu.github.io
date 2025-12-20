@@ -53,7 +53,8 @@ nav_exclude: true
 
 ## About Me
 
-I am **Mohan Elapolu**, a computational scientist with a deep passion for understanding and predicting physical, chemical, biological, and engineered phenomena. 
+I am **Mohan Elapolu**. <br>
+A computational scientist with a deep passion for understanding and predicting physical, chemical, biological, and engineered phenomena. 
 
 I solve ODE/PDE-based systems using classical numerical methods and modern machine learning tools to build high- and low-fidelity simulations for complex system behavior, design optimization, and intelligent decision-making.
 
@@ -187,7 +188,7 @@ I specialize in pre- and post-processing large-scale computational data using Py
 <!-- TAB CONTENT SECTIONS -->
 <div id="t1" class="tab-content active" markdown="1">
 
-**FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation**
+**FiGNNet: A Fracture-informed Graph Transformer-Attention Neural Network for Simulating Crack Propagation** <br>
 
 Modeling fracture in solids remains a significant challenge in computational mechanics due to the complexity of crack initiation and propagation under mixed-mode loading. In this work, we introduce a novel fracture-informed graph neural network (GNN) framework (FiGNNet) for simulating fractures in pre-cracked elastic solids. FiGNNet couples a graph transformer network (GTF) to capture long-range interactions with a graph attention network (GAT), focusing on localized behavior near crack tips. The governing equations of linear elasticity are embedded in the loss function through their weak form, ensuring physical consistency without relying on finite element analysis (FEA) solutions: displacements or stresses. The proposed approach is validated against FEA across various benchmark problems involving center and edge cracks subjected to tensile, shear, and bending loads. FiGNNet accurately predicts displacement fields, stress distributions, and crack propagation angles across all scenarios. The proposed method offers a physics-informed machine learning framework for fracture simulation, with strong potential for further integration into mesh-independent computational mechanics problems.
 
@@ -195,7 +196,7 @@ Modeling fracture in solids remains a significant challenge in computational mec
 
 ---
 
-**Machine Learning Algorithms for predicting crack propagation**
+**Machine Learning Algorithms for predicting crack propagation** <br>
 
 A machine learning model is proposed to predict the brittle fracture of polycrystalline graphene under tensile loading. The model employs a convolutional neural network, bidirectional recurrent neural network, and fully connected layer to process the spatial and sequential features. The spatial features are grain orientations and location of grain boundaries whereas sequential features are associated with the crack growth. Molecular dynamics modeling is used to obtain the fracture process in pre-cracked polycrystalline graphene sheet subjected to tensile loading. The data from molecular dynamic simulations along with novel image-processing techniques are used to prepare the data set required to train and test the proposed model. Crack growth obtained from the machine learning model shows a close agreement with the molecular dynamic simulations. The proposed machine learning model predicts crack growth instantaneously avoiding the computational costs associated with molecular dynamics simulations.
 
@@ -241,7 +242,7 @@ This paper outlines a novel blockchain-based requirement traceability framework 
 
 ---
 
-***Polyominoes for design***
+***Polyominoes for design*** <br>
 
 Many computational design methods like generative models and topology optimization find optimal structures for certain requirements by iteratively trying alternatives that may include non-manifolds and without an explicit trace of feasible structures along the search. These methods focus on achieving one solution at a time. We propose a new computational framework that constructs a surrogate dataset of physically realizable designs by finding polyomino structures—neighboring squares with at least one common edge—with breadth-first search of a quadtree. We conduct Finite-Element Analysis (FEA) on each level of the tree to narrow down acceptable structures under a given load condition. Considering that all possible options for filling an n*n grid are 2n*n combinations, we use few heuristics, e.g., ignoring structures with fewer cells than the length of the bounding box, that significantly reduce the search space from trillions to thousands in our case study of an 8*8 grid. Our exhaustive yet tractable dataset of structures evaluated with FEA allows us to not only find a Pareto frontier of compliant structures but also facilitates exploring structures with different topology at the same volume fraction to adapt designs to other requirements such as support structure when additively manufactured. We demonstrate a case for bending load.
 
@@ -278,7 +279,7 @@ function switchTab(id, btn) {
 
 ## Projects
 
-**Agentic RAG Document QA Bot**
+**Agentic RAG Document QA Bot** <br>
 We developed a RAG based agentic model to create QA bot that acts as an interface between users and LLM (ChatGPT). This is built using LangChain and associated tool stack.  
 - API calls to OpenAI models through Langchain Prompts
 - Different LangChain conversation memory features
@@ -288,7 +289,7 @@ We developed a RAG based agentic model to create QA bot that acts as an interfac
 
 [GitHub link](https://github.com/MohanElapolu/Agentic-RAG-Document-QA-Bot.git)  
 
-**Reqchat** 
+**Reqchat** <br>
 Built the LLM from scratch and performed pretraining based on the Andrej Karpathy Nanochat project.
 
 [GitHub link](https://github.com/MohanElapolu/nanochat.git)  
