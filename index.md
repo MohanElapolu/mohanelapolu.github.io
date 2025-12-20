@@ -288,7 +288,7 @@ We developed a RAG based agentic model to create QA bot that acts as an interfac
 
 [GitHub link](https://github.com/MohanElapolu/Agentic-RAG-Document-QA-Bot.git)  
 
-**Nanochat** 
+**Reqchat** 
 Built the LLM from scratch and performed pretraining based on the Andrej Karpathy Nanochat project.
 
 [GitHub link](https://github.com/MohanElapolu/nanochat.git)  
